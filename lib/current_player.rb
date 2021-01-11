@@ -1,11 +1,9 @@
 def turn_count(placeholderBoard)
   totalXsOs = 0 
-  
   placeholderBoard.each do |playerspace|
     if playerspace == "X" || playerspace == "O"
       totalXsOs += 1 
-     
-    end
+       end
   end  
     
   totalXsOs   
